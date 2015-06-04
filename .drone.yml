@@ -2,8 +2,7 @@ image: bradrydzewski/go:1.4
 env:
   - GOPATH=/var/cache/drone
 script:
-  - go build
-  - go test -v
+  - sleep 10
 notify:
   email:
     recipients:
